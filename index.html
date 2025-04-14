@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calci</title>
+</head>
+<link rel="stylesheet" href="style..css">
+
+<body>
+
+    <div class="calci">
+        <div class="inside">
+            <form>
+        <div class="display">
+            <input type="text" name="display" id="input">
+        </div>
+        <div class="first">
+          <input type="button" value = "C" onclick="if(display.value == 'Error')display.value = '';display.value = ''">
+          <input type="button" value = "/" onclick="if(display.value == 'Error')display.value = '';display.value += '/' " id = "clear">
+          <input type="button" value = "*" onclick="if(display.value == 'Error')display.value = '';display.value += '*' "  id = "clear">
+          <input type="button" value = "DEL" onclick="if(display.value == 'Error')display.value = '';display.value = display.value.toString().slice(0,-1) "id = "del">
+
+        </div>
+        <div class="second">
+            <input type="button" value = "7" onclick="if(display.value == 'Error')display.value = '';display.value += '7' " id = "clear"> 
+            <input type="button" value = "8" onclick="if(display.value == 'Error')display.value = '';display.value += '8' " id = "clear">   
+            <input type="button" value = "9" onclick="if(display.value == 'Error')display.value = '';display.value += '9' " id = "clear">
+            <input type="button" value = "-" onclick="if(display.value == 'Error')display.value = '';display.value += '-' " id = "clear">
+  
+          </div>
+          <div class="third">
+            <input type="button" value = "4" onclick="if(display.value == 'Error')display.value = '';display.value += '4' " id = "clear">
+            <input type="button" value = "5" onclick="if(display.value == 'Error')display.value = '';display.value += '5' " id = "clear">
+            <input type="button" value = "6" onclick="if(display.value == 'Error')display.value = '';display.value += '6' " id = "clear">
+            <input type="button" value = "+" onclick="if(display.value == 'Error')display.value = '';display.value += '+' " id = "clear">
+  
+          </div>
+          <div class="fourth">
+            <div class="insider4th">
+                <div class="1sttype">
+                    <input type="button" value = "1" onclick="if(display.value == 'Error')display.value = '';display.value += '1' " id = "clear">
+                    <input type="button" value = "2" onclick="if(display.value == 'Error')display.value = '';display.value += '2' " id = "clear">
+                    <input type="button" value = "3" onclick="if(display.value == 'Error')display.value = '';display.value += '3' " id = "clear">
+                </div>
+               
+                
+                <div class="fourthhalf">
+                    <input type="button" value = "0" class="zero" onclick="if(display.value == 'Error')display.value = '';display.value += '0' " id = "clear">
+                    <input type="button" value = "." onclick="if(display.value == 'Error')display.value = '';display.value += '.' " id = "clear">
+      
+              </div>
+            </div>
+              <div class="equal">
+                <input type="button" value = "=" class="eq" id="equal">
+            </div>
+                  
+                  
+          </div>
+         
+              
+        
+        </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>

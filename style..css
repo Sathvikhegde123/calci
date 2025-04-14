@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.calci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    background-color: rgb(172, 171, 171);
+    height: 100vh;
+    background: linear-gradient(
+        to bottom ,rgb(255, 206, 206) 50%,rgb(155, 99, 245) 50%
+    );
+}
+ .inside{
+    background-color: rgb(40, 40, 40);
+    padding: 20px;
+    border-radius: 23px;
+ }
+
+ .calci input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+     font-size: 20px;
+     cursor: pointer; 
+     background-color: rgb(215, 210, 210);
+ }
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+ } 
+ form .display input{
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 20px;
+   
+ }
+ .fourth .eq{
+    height: 140px;
+    margin-left: 15px;
+ }
+ .fourth{
+    display: flex;
+ }
+.fourth .zero{
+    width: 145px;
+}
